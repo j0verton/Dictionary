@@ -37,4 +37,8 @@ defmodule Exercises do
     String.myers_difference(time, bacon)
   end
 
+  def replace_regex_cat_dog
+    str = "cats like catnip"
+    |> String.replace(~r/cat/, "dog")
+
 end
