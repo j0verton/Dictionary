@@ -6,11 +6,11 @@ defmodule Pattern do
     def swapExample({a, b}), do: {b, a}
 
 
-    def same(a, a) do
+    def same(_a, _a) do
         IO.puts(true)
     end 
 
-    def same(a,b) do
+    def same(_a,_b) do
         IO.puts(false)
     end
 
