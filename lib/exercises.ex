@@ -1,22 +1,5 @@
 defmodule Exercises do
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   def reverse_string do
     time = "had we but world enough, and time"
     String.reverse(time)
@@ -37,8 +20,8 @@ defmodule Exercises do
     String.myers_difference(time, bacon)
   end
 
-  def replace_regex_cat_dog
+  def replace_regex_cat_dog do
     str = "cats like catnip"
     |> String.replace(~r/cat/, "dog")
-
+  end
 end
